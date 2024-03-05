@@ -21,6 +21,16 @@ python main.py
 ```
 Make sure you have the `chapters.json` file in the same directory as the script.
 
+### Output
+```bash
+...
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+The year of the moon landing in the Quran is: 1389 # hijri date
+...
+```
+
 ## Requirements
 - Python 3
 - JSON file named `chapters.json` in the same directory as the script
