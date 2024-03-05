@@ -32,7 +32,7 @@ with open("chapters.json","r") as f:
             total_verses = total_verses + verses_count
     
     print(lines)
-    # all the verses from 1st verse of Al-Qamar and the last verse of the Quran
+    # counting all the remaining verses right after 1st verse of Al-Qamar -> right all the way to the end of the Quran
     verses_distance = total_verses-1    
     print(f"The year of the moon landing in the Quran is: {color.BOLD}{verses_distance}{color.END}")
     
