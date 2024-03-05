@@ -32,10 +32,7 @@ with open("chapters.json","r") as f:
             total_verses = total_verses + verses_count
     
     print(lines)
-    # if we subtract 5 from 10. The result is 5 but the distance is 4
-    # i.e 10-5 = (6,7,8,9)
-    # same way we are subtracting 1 from the total verses to get distance 
-    # or steps required to go to the 6236th (total verses in the Quran) verse
+    # all the verses from 1st verse of Al-Qamar and the last verse of the Quran
     verses_distance = total_verses-1    
     print(f"The year of the moon landing in the Quran is: {color.BOLD}{verses_distance}{color.END}")
     
